@@ -6,6 +6,6 @@
 
 codes文件夹中提供 了demo 以及biz参数的获取方式
 
-**<font size=10>api文档地址 http://wx.lybsr.com/ </font>** 
+**api文档地址 http://wx.lybsr.com/** 
 
 
