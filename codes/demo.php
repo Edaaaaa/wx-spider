@@ -1,7 +1,7 @@
 <?php
 
 $auth = "XXXXXX"; //联系作者获取
-$biz = "xxxxxx" //公众号biz, 如果不会获取,请参考get_biz.php代码
+$biz = "xxxxxx"; //公众号biz, 如果不会获取,请参考get_biz.php代码
 
 
 $curl = curl_init();
