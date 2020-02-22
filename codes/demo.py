@@ -1,13 +1,10 @@
-#import requests
+import requests
+host = 'xxxx'       #服务器ip
+auth = 'xxxx'       #auth
+art_url = 'xxxx'    #文章链接
+request_url = host+"/Home/info/get_read_num"
 
-
-auth = 'xxxx'   #联系作者获取
-biz = 'xxx'     #公众号biz, 如果不会获取,请参考get_biz.php代码
-url = "http://121.196.196.117/Home/info/get_newprofile?auth="+auth+"&biz="+biz
-
-payload = {}
-headers= {}
-
-response = requests.request("GET", url, headers=headers, data = payload)
-
-print(response.text.encode('utf8'))
+payload = {'auth': auth,'url': art_url}
+headers = {}
+response = requests.request("POST", request_url, headers=headers, data = payload)
+print(response.text)
