@@ -9,6 +9,6 @@
 
 ~~codes文件夹中提供 了demo 以及biz参数的获取方式~~
 
-~~api文档地址 http://wsxs.lybsr.com/web/#/p/47bb7a5de7395d75ac7cb4cfb87c6268~~
+
 
 
